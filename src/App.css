@@ -1,0 +1,168 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.formcontainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: bisque;
+}
+.formdiv{
+  background-color: #61dafb;
+  padding: 52px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width:300px;
+  text-align: center;
+}
+.formfield{
+  margin-bottom:15px;
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.formfield label{
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.formfield input{
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+.formbtn {
+  padding: 10px;
+  background-color: #e84554;;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin:5px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.formbtn:hover {
+  background-color: #f17a88;;
+}
+.showDataContainer {
+  padding: 20px;
+  background-color: bisque;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  min-height: 100vh;
+  min-width:545px;
+}
+
+.dataList {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.dataItem {
+  background-color: white;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  display: grid;
+  gap: 26px;
+  width: 300px;
+}
+.dataItem.pinned {
+  background-color: #61dafb; 
+}
+
+.dataField {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #555;
+}
+
+.dataField strong {
+  color: #333;
+}
+.showh1{
+  margin-top:0px
+}
+.showaddbtn{
+  padding: 5px 8px;
+  background-color: #e84554;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.showselect{
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+}
+.btn{
+  padding: 6px;
+  border-radius: 5px;
+  border: none;
+}
+.btn.fav{
+  background-color: #e84554;
+  color: white;
+}
+.showdiv{
+  display:flex;
+  justify-content: center;
+  gap:20px;
+  margin-bottom: 20px;
+}
+.showbtn{
+  padding: 3px 45px;
+  font-weight: bold;
+  font-size: large;
+  border: none;
+}
+.showbtn.active {
+  background-color: #e84554;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
