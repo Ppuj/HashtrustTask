@@ -46,7 +46,7 @@ const ShowData = () => {
         }
     }
 
-    const filteredData = userdata.filter((item) => {
+    const filteredData = userdata&&userdata.filter((item) => {
         if (filter === 'All') return true;
         if (filter === 'Favourite') return item.isfavourite;
         if (filter === 'UnFavourite') return !item.isfavourite;
