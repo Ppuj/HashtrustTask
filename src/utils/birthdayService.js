@@ -2,7 +2,7 @@ import axios from 'axios';
 import { GetLocalStorageData } from './LocalStorageUtils';
 
 const sendBirthdayMessage = (name) => {
-    const webhookUrl = "https://discord.com/api/webhooks/1316669480914522162/m6uOcBRLBzozBWRVEvkWnKtgXoux4uTQ6QNb2NwzBZDwzNoNJ90aJt85m3h43KU7T6cY";  //discord url
+    const webhookUrl = "https://discord.com/api/webhooks/1336586533301649448/80BquPYW275jhlLPVPFPQ_vg-ejgBa-giKn-KF59tXwOgHL1nbwSKXJZ-mo-DSaJ4ye0";  //discord url
     const message = {
         content: `🎉 Happy Birthday to ${name}! 🎂`,
     };
